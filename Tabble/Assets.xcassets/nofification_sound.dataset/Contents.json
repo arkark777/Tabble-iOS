@@ -1,10 +1,9 @@
 {
-  "images" : [
+  "data" : [
     {
-      "filename" : "icon_tabble.png",
+      "filename" : "ding_sound_1.mp3",
       "idiom" : "universal",
-      "platform" : "ios",
-      "size" : "1024x1024"
+      "universal-type-identifier" : "public.mp3"
     }
   ],
   "info" : {

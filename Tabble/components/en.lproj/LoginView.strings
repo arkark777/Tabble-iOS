@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; configuration.title = "開始掃描"; ObjectID = "3qZ-Ea-4Xh"; */
+"3qZ-Ea-4Xh.configuration.title" = "Start Scanning";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3qZ-Ea-4Xh"; */
+"3qZ-Ea-4Xh.normalTitle" = "Start Scanning";
+
+/* Class = "UILabel"; text = "掃描 QR Code 登入"; ObjectID = "Ptc-Ll-0qJ"; */
+"Ptc-Ll-0qJ.text" = "Scan QR Code to Log In";
+
+/* Class = "UILabel"; text = "掃描總部提供的 QR Code，登入分店帳號"; ObjectID = "b9n-Vx-og1"; */
+"b9n-Vx-og1.text" = "Scan the QR Code provided by the HQ \nto log in to the store account.";

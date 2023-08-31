@@ -9,13 +9,34 @@
 /* Begin PBXBuildFile section */
 		0354DB552A5E6A0B00A59347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354DB542A5E6A0B00A59347 /* AppDelegate.swift */; };
 		0354DB572A5E6A0B00A59347 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354DB562A5E6A0B00A59347 /* SceneDelegate.swift */; };
-		0354DB592A5E6A0B00A59347 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354DB582A5E6A0B00A59347 /* ViewController.swift */; };
 		0354DB5C2A5E6A0B00A59347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0354DB5A2A5E6A0B00A59347 /* Main.storyboard */; };
 		0354DB5E2A5E6A0D00A59347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0354DB5D2A5E6A0D00A59347 /* Assets.xcassets */; };
 		0354DB612A5E6A0D00A59347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0354DB5F2A5E6A0D00A59347 /* LaunchScreen.storyboard */; };
 		0354DB6C2A5E6A0D00A59347 /* TabbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354DB6B2A5E6A0D00A59347 /* TabbleTests.swift */; };
 		0354DB762A5E6A0D00A59347 /* TabbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354DB752A5E6A0D00A59347 /* TabbleUITests.swift */; };
 		0354DB782A5E6A0D00A59347 /* TabbleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354DB772A5E6A0D00A59347 /* TabbleUITestsLaunchTests.swift */; };
+		0354DB8B2A5E708D00A59347 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354DB8A2A5E708D00A59347 /* LoginView.swift */; };
+		0354DB912A5E74F600A59347 /* Foundation+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354DB902A5E74F600A59347 /* Foundation+Ext.swift */; };
+		0354DB932A5E772B00A59347 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354DB922A5E772B00A59347 /* LoginViewController.swift */; };
+		0354DB9D2A64D61600A59347 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354DB9C2A64D61600A59347 /* ScanViewController.swift */; };
+		0354DBA02A6527F800A59347 /* StarIO10 in Frameworks */ = {isa = PBXBuildFile; productRef = 0354DB9F2A6527F800A59347 /* StarIO10 */; };
+		0354DBA72A652C4900A59347 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0354DBA62A652C4900A59347 /* libxml2.2.tbd */; };
+		0354DBA92A652C5E00A59347 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0354DBA82A652C5E00A59347 /* ExternalAccessory.framework */; };
+		0354DBAB2A652C6D00A59347 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0354DBAA2A652C6D00A59347 /* CoreBluetooth.framework */; };
+		0354DBAE2A652D1200A59347 /* EposnLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 0354DBAD2A652D1200A59347 /* EposnLib.m */; };
+		0354DBB02A652ED700A59347 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354DBAF2A652ED700A59347 /* WebViewController.swift */; };
+		0354DBB32A6533D400A59347 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 0354DBB22A6533D400A59347 /* SwiftyJSON */; };
+		0354DBB62A65357A00A59347 /* TabbleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354DBB52A65357A00A59347 /* TabbleService.swift */; };
+		0354DBB92A6667DE00A59347 /* TTSInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354DBB82A6667DE00A59347 /* TTSInfo.swift */; };
+		0354DBBB2A666CD400A59347 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354DBBA2A666CD400A59347 /* DataManager.swift */; };
+		0354DBC12A66713400A59347 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0354DBC02A66713400A59347 /* Alamofire */; };
+		0354DBC42A7396C200A59347 /* NotificationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354DBC32A7396C200A59347 /* NotificationInfo.swift */; };
+		0373EA462A93A56F00A082BA /* ding_sound_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0373EA452A93A56F00A082BA /* ding_sound_1.wav */; };
+		0373EA4F2A94CC4A00A082BA /* ScanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0373EA512A94CC4A00A082BA /* ScanView.xib */; };
+		0373EA5A2A94CC7700A082BA /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0373EA5C2A94CC7700A082BA /* LoginView.xib */; };
+		038A1ACB2A7B94AF00C223DB /* libepos2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038A1ACA2A7B94AF00C223DB /* libepos2.xcframework */; };
+		038A1ACD2A7B94BC00C223DB /* libeposeasyselect.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038A1ACC2A7B94BC00C223DB /* libeposeasyselect.xcframework */; };
+		039894B72A77AA980049185F /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039894B62A77AA980049185F /* ScanView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +60,6 @@
 		0354DB512A5E6A0B00A59347 /* Tabble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0354DB542A5E6A0B00A59347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0354DB562A5E6A0B00A59347 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0354DB582A5E6A0B00A59347 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0354DB5B2A5E6A0B00A59347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0354DB5D2A5E6A0D00A59347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0354DB602A5E6A0D00A59347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +69,42 @@
 		0354DB712A5E6A0D00A59347 /* TabbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0354DB752A5E6A0D00A59347 /* TabbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbleUITests.swift; sourceTree = "<group>"; };
 		0354DB772A5E6A0D00A59347 /* TabbleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0354DB8A2A5E708D00A59347 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0354DB902A5E74F600A59347 /* Foundation+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+Ext.swift"; sourceTree = "<group>"; };
+		0354DB922A5E772B00A59347 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0354DB9C2A64D61600A59347 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		0354DBA62A652C4900A59347 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		0354DBA82A652C5E00A59347 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		0354DBAA2A652C6D00A59347 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		0354DBAC2A652D1100A59347 /* Tabble-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tabble-Bridging-Header.h"; sourceTree = "<group>"; };
+		0354DBAD2A652D1200A59347 /* EposnLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EposnLib.m; sourceTree = "<group>"; };
+		0354DBAF2A652ED700A59347 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		0354DBB52A65357A00A59347 /* TabbleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbleService.swift; sourceTree = "<group>"; };
+		0354DBB82A6667DE00A59347 /* TTSInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSInfo.swift; sourceTree = "<group>"; };
+		0354DBBA2A666CD400A59347 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		0354DBC22A70FAAF00A59347 /* Tabble.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tabble.entitlements; sourceTree = "<group>"; };
+		0354DBC32A7396C200A59347 /* NotificationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationInfo.swift; sourceTree = "<group>"; };
+		0373EA452A93A56F00A082BA /* ding_sound_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding_sound_1.wav; sourceTree = "<group>"; };
+		0373EA472A94CB2500A082BA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		0373EA482A94CB2500A082BA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		0373EA492A94CB3000A082BA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		0373EA4A2A94CB3000A082BA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		0373EA4B2A94CB3700A082BA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		0373EA4C2A94CB3700A082BA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		0373EA4E2A94CB5F00A082BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		0373EA502A94CC4A00A082BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ScanView.xib; sourceTree = "<group>"; };
+		0373EA532A94CC5200A082BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ScanView.strings; sourceTree = "<group>"; };
+		0373EA552A94CC5300A082BA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ScanView.strings"; sourceTree = "<group>"; };
+		0373EA572A94CC5400A082BA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/ScanView.strings"; sourceTree = "<group>"; };
+		0373EA592A94CC5500A082BA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/ScanView.strings; sourceTree = "<group>"; };
+		0373EA5B2A94CC7700A082BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LoginView.xib; sourceTree = "<group>"; };
+		0373EA5E2A94CC7C00A082BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LoginView.strings; sourceTree = "<group>"; };
+		0373EA602A94CC7D00A082BA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LoginView.strings"; sourceTree = "<group>"; };
+		0373EA622A94CC7E00A082BA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LoginView.strings"; sourceTree = "<group>"; };
+		0373EA642A94CC7F00A082BA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LoginView.strings; sourceTree = "<group>"; };
+		038A1ACA2A7B94AF00C223DB /* libepos2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libepos2.xcframework; path = ../../ePOS_SDK_iOS_v2.24.0a/libepos2.xcframework; sourceTree = "<group>"; };
+		038A1ACC2A7B94BC00C223DB /* libeposeasyselect.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libeposeasyselect.xcframework; path = ../../ePOS_SDK_iOS_v2.24.0a/libeposeasyselect.xcframework; sourceTree = "<group>"; };
+		039894B62A77AA980049185F /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +112,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0354DBC12A66713400A59347 /* Alamofire in Frameworks */,
+				038A1ACB2A7B94AF00C223DB /* libepos2.xcframework in Frameworks */,
+				0354DBB32A6533D400A59347 /* SwiftyJSON in Frameworks */,
+				0354DBAB2A652C6D00A59347 /* CoreBluetooth.framework in Frameworks */,
+				038A1ACD2A7B94BC00C223DB /* libeposeasyselect.xcframework in Frameworks */,
+				0354DBA92A652C5E00A59347 /* ExternalAccessory.framework in Frameworks */,
+				0354DBA72A652C4900A59347 /* libxml2.2.tbd in Frameworks */,
+				0354DBA02A6527F800A59347 /* StarIO10 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +143,12 @@
 		0354DB482A5E6A0B00A59347 = {
 			isa = PBXGroup;
 			children = (
+				0373EA452A93A56F00A082BA /* ding_sound_1.wav */,
 				0354DB532A5E6A0B00A59347 /* Tabble */,
 				0354DB6A2A5E6A0D00A59347 /* TabbleTests */,
 				0354DB742A5E6A0D00A59347 /* TabbleUITests */,
 				0354DB522A5E6A0B00A59347 /* Products */,
+				0354DBA52A652C4900A59347 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +165,22 @@
 		0354DB532A5E6A0B00A59347 /* Tabble */ = {
 			isa = PBXGroup;
 			children = (
+				038A1ACA2A7B94AF00C223DB /* libepos2.xcframework */,
+				038A1ACC2A7B94BC00C223DB /* libeposeasyselect.xcframework */,
+				0354DBC22A70FAAF00A59347 /* Tabble.entitlements */,
+				0354DBB72A6667C500A59347 /* models */,
+				0354DBB42A65355400A59347 /* service */,
+				0354DB8F2A5E74D000A59347 /* utilities */,
+				0354DB8E2A5E749A00A59347 /* components */,
+				0354DB8D2A5E746600A59347 /* controllers */,
 				0354DB542A5E6A0B00A59347 /* AppDelegate.swift */,
 				0354DB562A5E6A0B00A59347 /* SceneDelegate.swift */,
-				0354DB582A5E6A0B00A59347 /* ViewController.swift */,
 				0354DB5A2A5E6A0B00A59347 /* Main.storyboard */,
 				0354DB5D2A5E6A0D00A59347 /* Assets.xcassets */,
 				0354DB5F2A5E6A0D00A59347 /* LaunchScreen.storyboard */,
 				0354DB622A5E6A0D00A59347 /* Info.plist */,
+				0354DBAD2A652D1200A59347 /* EposnLib.m */,
+				0354DBAC2A652D1100A59347 /* Tabble-Bridging-Header.h */,
 			);
 			path = Tabble;
 			sourceTree = "<group>";
@@ -127,6 +202,63 @@
 			path = TabbleUITests;
 			sourceTree = "<group>";
 		};
+		0354DB8D2A5E746600A59347 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0354DB922A5E772B00A59347 /* LoginViewController.swift */,
+				0354DB9C2A64D61600A59347 /* ScanViewController.swift */,
+				0354DBAF2A652ED700A59347 /* WebViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		0354DB8E2A5E749A00A59347 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				0354DB8A2A5E708D00A59347 /* LoginView.swift */,
+				0373EA5C2A94CC7700A082BA /* LoginView.xib */,
+				039894B62A77AA980049185F /* ScanView.swift */,
+				0373EA512A94CC4A00A082BA /* ScanView.xib */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		0354DB8F2A5E74D000A59347 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0354DB902A5E74F600A59347 /* Foundation+Ext.swift */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
+		0354DBA52A652C4900A59347 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0354DBAA2A652C6D00A59347 /* CoreBluetooth.framework */,
+				0354DBA82A652C5E00A59347 /* ExternalAccessory.framework */,
+				0354DBA62A652C4900A59347 /* libxml2.2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0354DBB42A65355400A59347 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				0354DBB52A65357A00A59347 /* TabbleService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		0354DBB72A6667C500A59347 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				0354DBB82A6667DE00A59347 /* TTSInfo.swift */,
+				0354DBBA2A666CD400A59347 /* DataManager.swift */,
+				0354DBC32A7396C200A59347 /* NotificationInfo.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +275,11 @@
 			dependencies = (
 			);
 			name = Tabble;
+			packageProductDependencies = (
+				0354DB9F2A6527F800A59347 /* StarIO10 */,
+				0354DBB22A6533D400A59347 /* SwiftyJSON */,
+				0354DBC02A66713400A59347 /* Alamofire */,
+			);
 			productName = Tabble;
 			productReference = 0354DB512A5E6A0B00A59347 /* Tabble.app */;
 			productType = "com.apple.product-type.application";
@@ -195,6 +332,7 @@
 				TargetAttributes = {
 					0354DB502A5E6A0B00A59347 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 					0354DB662A5E6A0D00A59347 = {
 						CreatedOnToolsVersion = 14.2;
@@ -213,8 +351,16 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
+				ja,
 			);
 			mainGroup = 0354DB482A5E6A0B00A59347;
+			packageReferences = (
+				0354DB9E2A6527F800A59347 /* XCRemoteSwiftPackageReference "StarXpand-SDK-iOS" */,
+				0354DBB12A6533D400A59347 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				0354DBBF2A66713400A59347 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 0354DB522A5E6A0B00A59347 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +379,10 @@
 			files = (
 				0354DB612A5E6A0D00A59347 /* LaunchScreen.storyboard in Resources */,
 				0354DB5E2A5E6A0D00A59347 /* Assets.xcassets in Resources */,
+				0373EA5A2A94CC7700A082BA /* LoginView.xib in Resources */,
 				0354DB5C2A5E6A0B00A59347 /* Main.storyboard in Resources */,
+				0373EA462A93A56F00A082BA /* ding_sound_1.wav in Resources */,
+				0373EA4F2A94CC4A00A082BA /* ScanView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +407,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0354DB592A5E6A0B00A59347 /* ViewController.swift in Sources */,
+				0354DB932A5E772B00A59347 /* LoginViewController.swift in Sources */,
+				0354DBAE2A652D1200A59347 /* EposnLib.m in Sources */,
+				0354DB912A5E74F600A59347 /* Foundation+Ext.swift in Sources */,
+				0354DBB92A6667DE00A59347 /* TTSInfo.swift in Sources */,
+				0354DBC42A7396C200A59347 /* NotificationInfo.swift in Sources */,
+				0354DBB62A65357A00A59347 /* TabbleService.swift in Sources */,
+				039894B72A77AA980049185F /* ScanView.swift in Sources */,
 				0354DB552A5E6A0B00A59347 /* AppDelegate.swift in Sources */,
+				0354DB8B2A5E708D00A59347 /* LoginView.swift in Sources */,
 				0354DB572A5E6A0B00A59347 /* SceneDelegate.swift in Sources */,
+				0354DBBB2A666CD400A59347 /* DataManager.swift in Sources */,
+				0354DB9D2A64D61600A59347 /* ScanViewController.swift in Sources */,
+				0354DBB02A652ED700A59347 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +460,10 @@
 			isa = PBXVariantGroup;
 			children = (
 				0354DB5B2A5E6A0B00A59347 /* Base */,
+				0373EA472A94CB2500A082BA /* zh-Hans */,
+				0373EA492A94CB3000A082BA /* zh-Hant */,
+				0373EA4B2A94CB3700A082BA /* ja */,
+				0373EA4E2A94CB5F00A082BA /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,8 +472,35 @@
 			isa = PBXVariantGroup;
 			children = (
 				0354DB602A5E6A0D00A59347 /* Base */,
+				0373EA482A94CB2500A082BA /* zh-Hans */,
+				0373EA4A2A94CB3000A082BA /* zh-Hant */,
+				0373EA4C2A94CB3700A082BA /* ja */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0373EA512A94CC4A00A082BA /* ScanView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0373EA502A94CC4A00A082BA /* Base */,
+				0373EA532A94CC5200A082BA /* en */,
+				0373EA552A94CC5300A082BA /* zh-Hans */,
+				0373EA572A94CC5400A082BA /* zh-Hant */,
+				0373EA592A94CC5500A082BA /* ja */,
+			);
+			name = ScanView.xib;
+			sourceTree = "<group>";
+		};
+		0373EA5C2A94CC7700A082BA /* LoginView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0373EA5B2A94CC7700A082BA /* Base */,
+				0373EA5E2A94CC7C00A082BA /* en */,
+				0373EA602A94CC7D00A082BA /* zh-Hans */,
+				0373EA622A94CC7E00A082BA /* zh-Hant */,
+				0373EA642A94CC7F00A082BA /* ja */,
+			);
+			name = LoginView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -320,6 +510,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -380,6 +571,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -435,23 +627,37 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Tabble/Tabble.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = VPY382X3U8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Tabble/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Use this to communicate with the printer.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access your camera for scanning QR code";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.kabob.Tabble;
+				PRODUCT_BUNDLE_IDENTIFIER = io.kabob.tabble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = tabble;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tabble/Tabble-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,23 +668,36 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Tabble/Tabble.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = VPY382X3U8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Tabble/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Use this to communicate with the printer.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access your camera for scanning QR code";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.kabob.Tabble;
+				PRODUCT_BUNDLE_IDENTIFIER = io.kabob.tabble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = tabble;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tabble/Tabble-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -596,6 +815,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0354DB9E2A6527F800A59347 /* XCRemoteSwiftPackageReference "StarXpand-SDK-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/star-micronics/StarXpand-SDK-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		0354DBB12A6533D400A59347 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		0354DBBF2A66713400A59347 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0354DB9F2A6527F800A59347 /* StarIO10 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0354DB9E2A6527F800A59347 /* XCRemoteSwiftPackageReference "StarXpand-SDK-iOS" */;
+			productName = StarIO10;
+		};
+		0354DBB22A6533D400A59347 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0354DBB12A6533D400A59347 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		0354DBC02A66713400A59347 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0354DBBF2A66713400A59347 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0354DB492A5E6A0B00A59347 /* Project object */;
 }

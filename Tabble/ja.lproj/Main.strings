@@ -1,0 +1,6 @@
+
+/* Class = "UIButton"; configuration.title = "重新掃碼"; ObjectID = "jHr-kn-KZS"; */
+"jHr-kn-KZS.configuration.title" = "QR Code 再スキャン";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jHr-kn-KZS"; */
+"jHr-kn-KZS.normalTitle" = "QR Code 再スキャン";
